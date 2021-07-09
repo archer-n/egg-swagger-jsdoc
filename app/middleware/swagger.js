@@ -14,7 +14,7 @@ module.exports = options => {
   return async function swaggerUI(ctx, next) {
     if (ctx.path === '/api-docs') {
       ctx.set('Content-Type', 'application/json');
-      ctx.body = apiDocs(ctx, options.options);
+      ctx.body = apiDocs(ctx, options);
       return;
     }
     await next();

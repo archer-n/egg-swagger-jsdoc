@@ -1,13 +1,23 @@
 'use strict';
 
-exports.keys = '123456';
+/**
+ * @param {Egg.EggAppInfo} appInfo app info
+ */
+// eslint-disable-next-line no-unused-vars
+module.exports = appInfo => {
+  /**
+   * built-in config
+   * @type {Egg.EggAppConfig}
+   **/
+  const config = exports = {};
 
-exports.swagger = {
-  options: {
+  config.keys = '123456';
+
+  config.swagger = {
     swaggerDefinition: {
       swagger: '2.0',
       info: {
-        // API informations (required)
+      // API informations (required)
         description: 'This is a sample server Petstore server.  You can find out more about     Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).      For this sample, you can use the api key `special-key` to test the authorization     filters.', // Description (optional)
         version: '1.0.0', // Version (required)
         title: 'Swagger Petstore', // Title (required)
@@ -43,5 +53,7 @@ exports.swagger = {
       './test/fixtures/apps/swagger-jsdoc-test/app/controller/**.js',
       './test/fixtures/apps/swagger-jsdoc-test/app/swagger/schemas/**.yaml',
     ],
-  },
+  };
+
+  return config;
 };
