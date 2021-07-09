@@ -1,6 +1,6 @@
 {
   "name": "egg-swagger-jsdoc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate swagger/openapi specifications based on jsDoc comments and YAML files, and provide swagger-ui",
   "main": "index.js",
   "eggPlugin": {
@@ -54,12 +54,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-swagger-jsdoc.git"
+    "url": "git+https://github.com/archer-n/egg-swagger-jsdoc.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com//archer-n/egg-swagger-jsdoc/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-swagger-jsdoc#readme",
+  "homepage": "https://github.com/archer-n/egg-swagger-jsdoc#readme",
   "author": "archer",
   "license": "MIT"
 }

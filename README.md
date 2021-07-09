@@ -9,12 +9,12 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-swagger-jsdoc.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-swagger-jsdoc
-[travis-image]: https://img.shields.io/travis/eggjs/egg-swagger-jsdoc.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-swagger-jsdoc
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-swagger-jsdoc.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-swagger-jsdoc?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-swagger-jsdoc.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-swagger-jsdoc
+[travis-image]: https://img.shields.io/travis/archer-n/egg-swagger-jsdoc.svg?style=flat-square
+[travis-url]: https://travis-ci.org/archer-n/egg-swagger-jsdoc
+[codecov-image]: https://img.shields.io/codecov/c/github/archer-n/egg-swagger-jsdoc.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/archer-n/egg-swagger-jsdoc?branch=main
+[david-image]: https://img.shields.io/david/archer-n/egg-swagger-jsdoc.svg?style=flat-square
+[david-url]: https://david-dm.org/archer-n/egg-swagger-jsdoc
 [snyk-image]: https://snyk.io/test/npm/egg-swagger-jsdoc/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/egg-swagger-jsdoc
 [download-image]: https://img.shields.io/npm/dm/egg-swagger-jsdoc.svg?style=flat-square
