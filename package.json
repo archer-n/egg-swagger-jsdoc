@@ -5,7 +5,9 @@
   "main": "index.js",
   "eggPlugin": {
     "name": "swagger",
-    "dependencies": ["static"]
+    "dependencies": [
+      "static"
+    ]
   },
   "keywords": [
     "egg",
@@ -42,10 +44,9 @@
   },
   "files": [
     "index.js",
-    "app.js",
-    "agent.js",
+    "app",
     "config",
-    "app"
+    "app.js"
   ],
   "ci": {
     "version": "8, 10"

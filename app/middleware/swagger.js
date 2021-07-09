@@ -1,17 +1,16 @@
 'use strict';
 
 const swaggerJSDoc = require('swagger-jsdoc');
-const path = require('path');
-const CACHE = Symbol.for('egg-swaager-jsdoc#middleware#swaager#apidocs.json')
+const CACHE = Symbol.for('egg-swaager-jsdoc#middleware#swaager#apidocs.json');
 
 function apiDocs(ctx, options) {
   if (!ctx.app[CACHE]) {
-     ctx.app[CACHE] = swaggerJSDoc(options);
+    ctx.app[CACHE] = swaggerJSDoc(options);
   }
   return ctx.app[CACHE];
 }
 
-module.exports = (options) => {
+module.exports = options => {
   return async function swaggerUI(ctx, next) {
     if (ctx.path === '/api-docs') {
       ctx.set('Content-Type', 'application/json');
@@ -19,5 +18,5 @@ module.exports = (options) => {
       return;
     }
     await next();
-  }
-}
+  };
+};

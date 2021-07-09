@@ -12,5 +12,5 @@ exports.swagger = {
 
 exports.static = {
   // maxAge: 31536000,
-  dir: [{ prefix: '/swagger-ui', dir: path.join(__dirname, '../app/public')} ]
+  dir: [{ prefix: '/swagger-ui', dir: path.join(__dirname, '../app/public') }],
 };
