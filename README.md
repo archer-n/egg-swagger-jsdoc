@@ -1,17 +1,16 @@
 # egg-swagger-jsdoc
 
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
+[![Node.js CI][github-workflow-image]][github-workflow]
 [![Test coverage][codecov-image]][codecov-url]
 [![David deps][david-image]][david-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
-[![Node.js CI][github-workflow]][github-workflow]
 
 [npm-image]: https://img.shields.io/npm/v/egg-swagger-jsdoc.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-swagger-jsdoc
+[github-workflow-image]: https://github.com/archer-n/egg-swagger-jsdoc/actions/workflows/nodejs.yml/badge.svg
 [github-workflow]: https://github.com/archer-n/egg-swagger-jsdoc/actions
-[travis-url]: https://travis-ci.org/archer-n/egg-swagger-jsdoc
 [codecov-image]: https://img.shields.io/codecov/c/github/archer-n/egg-swagger-jsdoc.svg?style=flat-square
 [codecov-url]: https://codecov.io/github/archer-n/egg-swagger-jsdoc?branch=main
 [david-image]: https://img.shields.io/david/archer-n/egg-swagger-jsdoc.svg?style=flat-square
