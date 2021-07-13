@@ -1,6 +1,6 @@
 {
   "name": "egg-swagger-jsdoc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate swagger/openapi specifications based on jsDoc comments and YAML files, and provide swagger-ui",
   "main": "index.js",
   "eggPlugin": {
