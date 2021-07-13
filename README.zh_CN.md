@@ -9,7 +9,7 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-swagger-jsdoc.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-swagger-jsdoc
-[travis-image]: https://img.shields.io/travis/archer-n/egg-swagger-jsdoc.svg?style=flat-square
+[![Build Status](https://github.com/archer-n/egg-swagger-jsdoc/actions/workflows/nodejs.yml/badge.svg)](https://github.com/archer-n/egg-swagger-jsdoc/actions)
 [travis-url]: https://travis-ci.org/archer-n/egg-swagger-jsdoc
 [codecov-image]: https://img.shields.io/codecov/c/github/archer-n/egg-swagger-jsdoc.svg?style=flat-square
 [codecov-url]: https://codecov.io/github/archer-n/egg-swagger-jsdoc?branch=main
